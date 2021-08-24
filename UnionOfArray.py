@@ -1,0 +1,6 @@
+arr1=list(map(int,input().split(" ")))
+arr2=list(map(int,input().split(" ")))
+set1=set(arr1)
+set2=set(arr2)
+UnionofArray= set1.union(set2)
+print(*UnionofArray,sep=",")
