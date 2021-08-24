@@ -1,5 +1,6 @@
-arr=list(map(int,input().split(" ")))
-for i in range(len(arr)):
-    arr[-1]=arr[0]
-    arr[i]=arr[i+1]
-print(arr)
+nums=list(map(int,input().split(" ")))
+k = len(nums)-1
+def new_func(nums, k):
+    nums[k:], nums[:k] = nums[:k], nums[k:]
+new_func(nums, k)
+print(nums)
