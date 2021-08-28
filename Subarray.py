@@ -13,9 +13,7 @@ def hasZeroSumSublist(A):
 
 
 n=int(input())
-A=[]
-for i in range(n):
-    A.append(int(input()))
+A = [int(x) for x in input().split(",")]
 if hasZeroSumSublist(A):
     print("1")
 else:
