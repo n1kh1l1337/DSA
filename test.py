@@ -1,0 +1,6 @@
+arr1=list(map(int,input().split(",")))
+n=int(input())
+A=set(arr1)
+arr1=list(A)
+arr1.sort()
+print(arr1)
