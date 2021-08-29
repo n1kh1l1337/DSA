@@ -10,3 +10,4 @@ def findOddEvenDifference(arr,n):
 n=int(input())
 arr = [int(x) for x in input().split(" ")]
 print(findOddEvenDifference(arr,n))
+5,7,8,8,8,9,9,9,9
